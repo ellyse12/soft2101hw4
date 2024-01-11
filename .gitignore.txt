@@ -1,0 +1,7 @@
+# Java
+*.class
+*.war
+*.ear
+/target/
+/lib/
+/log/
