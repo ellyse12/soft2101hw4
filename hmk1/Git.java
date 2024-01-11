@@ -22,13 +22,13 @@ public class Git {
         
         if(num1>num2){
         for(int i = num2+1;i<num1;i++){
-            if(i%2==1){System.out.println(i);
+            if(i%2==0){System.out.println(i);
                     
                    };
         }
         }else{
                for(int i = num1+1;i<num2;i++){
-           if(i%2==1){System.out.println(i);}
+           if(i%2==0){System.out.println(i);}
                 };
         }
         
