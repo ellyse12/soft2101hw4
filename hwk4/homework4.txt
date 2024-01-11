@@ -1,1 +1,16 @@
+STEP A
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global user.name "ellyse12"
+
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global user.email "ilkercihandurmus@gmail.com"
+
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global core.editor "netbeans"
+
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global --list
+user.name=ellyse12
+user.email=ilkercihandurmus@gmail.com
+core.editor=netbeans
 
