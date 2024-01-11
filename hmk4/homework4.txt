@@ -1,1 +1,140 @@
 
+
+STEP A
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global user.name "ellyse12"
+
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global user.email "ilkercihandurmus@gmail.com"
+
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global core.editor "netbeans"
+
+ellys@DESKTOP-6J53SDN MINGW64 ~
+$ git config --global --list
+user.name=ellyse12
+user.email=ilkercihandurmus@gmail.com
+core.editor=netbeans
+
+STEP B
+ellys@DESKTOP-6J53SDN MINGW64 ~/soft2101hw4 (main)
+$ ls -a .git
+./   FETCH_HEAD  config       hooks/  info/  objects/     refs/
+../  HEAD        description  index   logs/  packed-refs
+
+
+STEP C
+[The Department of Software Engineering, Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+STEP D
+# Java
+*.class
+*.war
+*.ear
+/target/
+/lib/
+/log/
+
+STEP F
+$ git log
+commit 3e26adf471dde22a5f4c5bd974ad83753bab31d2 (HEAD -> feature-1)
+Author: ellyse12 <ilkercihandurmus@gmail.com>
+Date:   Thu Jan 11 22:34:08 2024 +0300
+
+    Satisfying requirement one
+
+commit 4754843dce5b92702ade11e24a220998ff2b5fc9 (main)
+Author: ellyse12 <ilkercihandurmus@gmail.com>
+Date:   Thu Jan 11 22:28:20 2024 +0300
+
+    Setting up gitignore
+
+commit fe06986cd51946009f05bf7c6e1ac78ba6eb04ab (origin/main, origin/HEAD)
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:51:32 2024 +0300
+
+    Update homework4.txt STEPA
+
+    A şıkkındaki soruların cevaplarını girdim.
+
+commit 11852ba4e690604819e4d5a631f39760ead1c755
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:49:37 2024 +0300
+
+    Create homework4.txt
+
+commit 1139571fbd056b321a92b42fbb2e2fb09d235d3d
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:49:05 2024 +0300
+
+    Delete hwk4
+
+commit 5f5f312a3780a159bacec0f0783f1ffab9e68dd6
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:48:07 2024 +0300
+
+    Create hwk4
+ ESCOD
+Date:   Thu Jan 11 19:51:32 2024 +0300
+
+    Update homework4.txt STEPA
+
+    A şıkkındaki soruların cevaplarını girdim.
+
+commit 11852ba4e690604819e4d5a631f39760ead1c755
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:49:37 2024 +0300
+
+    Create homework4.txt
+
+commit 1139571fbd056b321a92b42fbb2e2fb09d235d3d
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:49:05 2024 +0300
+
+    Delete hwk4
+
+commit 5f5f312a3780a159bacec0f0783f1ffab9e68dd6
+Author: İlker Cihan Durmuş <68218882+ellyse12@users.noreply.github.com>
+Date:   Thu Jan 11 19:48:07 2024 +0300
+
+    Create hwk4
+ 
+STEP J
+$  git log --oneline feature-2
+7d58bcd (HEAD -> feature-2) Satisfying requirement two
+3e26adf (main, feature-3, feature-1) Satisfying requirement one
+4754843 Setting up gitignore
+fe06986 (origin/main, origin/HEAD) Update homework4.txt STEPA
+11852ba Create homework4.txt
+1139571 Delete hwk4
+5f5f312 Create hwk4
+
+STEP M
+$ git diff main..feature-1
+diff --git a/hmk1/Git.java b/hmk1/Git.java
+index d8864bf..32f4ca9 100644
+--- a/hmk1/Git.java
++++ b/hmk1/Git.java
+@@ -22,14 +22,12 @@ public class Git {
+
+         if(num1>num2){
+         for(int i = num2+1;i<num1;i++){
+-            if(i%2==0){System.out.println(i);
+-
+-                   };
++            System.out.println(i);
+         }
+         }else{
+                for(int i = num1+1;i<num2;i++){
+-           if(i%2==0){System.out.println(i);}
+-                };
++            System.out.println(i);
++                }
+         }
+
+     }
+
+
+
+
+
